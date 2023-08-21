@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/s_nejads/OneDrive%20-%20Concordia%20University%20-%20Canada/drive_d/learnings/mlops-zoomcamp/capstone/project/notebooks/mlruns/0/faabec9fcf5a472393b040b453e78c5e/artifacts
+end_time: 1691388936973
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: faabec9fcf5a472393b040b453e78c5e
+run_name: wise-chimp-930
+run_uuid: faabec9fcf5a472393b040b453e78c5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691388932857
+status: 3
+tags: []
+user_id: s_nejads
