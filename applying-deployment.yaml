@@ -1,0 +1,41 @@
+###
+### A complete description of a Prefect Deployment for flow 'Applying ML Model'
+###
+name: Project-Deployment
+description: |-
+  Apply model to data
+  Returns:
+      None
+version: a47cc34257f12a517d6e21649a12ccad
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+tags:
+- MLOps
+parameters: {}
+schedule: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: Applying ML Model
+manifest_path: null
+storage: null
+path: C:\Users\s_nejads\OneDrive - Concordia University - Canada\Desktop\project
+entrypoint: model.py:applying_model
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
